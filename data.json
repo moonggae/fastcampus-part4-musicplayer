@@ -1,0 +1,28 @@
+{
+    "musics": [
+        {
+            "track" : "No Rival",
+            "streamUrl":"https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/122/no-rival-1651226438-1CBwH9EN4k.mp3",
+            "artist":"Alaina Cross, Maestro Chives, Egzod",
+            "coverUrl":"https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/122/100x100/no-rival-1651226434-NR8lMW0VBn.jpg"
+        },
+        {
+            "track" : "To The Top",
+            "streamUrl":"https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/121/to-the-top-1651143637-G2ytkuhKJR.mp3",
+            "artist":"Srikar, Jay Eskar",
+            "coverUrl":"https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/121/100x100/to-the-top-1651143634-fn789aXHcB.jpg"
+        },
+        {
+            "track" : "Take Me",
+            "streamUrl":"https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/119/take-me-1650621640-gEkB9kmxmd.mp3",
+            "artist":"Used, Andromedik",
+            "coverUrl":"https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/119/325x325/take-me-1650621637-cZ7REwwNNV.jpg"
+        },
+        {
+            "track" : "Champions",
+            "streamUrl":"https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/118/champions-1650535239-jRemnKLuzq.mp3",
+            "artist":"Donna Tella, Lunaar, Elektronomia",
+            "coverUrl":"https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/001/118/325x325/champions-1650535236-sCFOK71AJz.jpg"
+        }
+    ]
+}
