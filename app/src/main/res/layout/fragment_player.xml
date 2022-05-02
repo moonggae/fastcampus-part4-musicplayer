@@ -14,6 +14,20 @@
     cardElevation : cardView 살짝 띄우기
     -->
 
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/playerViewGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:constraint_referenced_ids="trackTextView, artistTextView, coverImageCardView, bottomBackgroundView, playerSeekBar, playTimeTextView, totalTimeTextView"
+        tools:visibility="visible" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/playListViewGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="titleTextView, playListRecyclerView, playListSeekBar" />
+
     <View
         android:id="@+id/topBackgroundView"
         android:layout_width="0dp"
@@ -64,6 +78,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/artistTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="3dp"
@@ -75,6 +90,7 @@
         tools:text="꿈빛 파티시엘 OST" />
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/coverImageCardView"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginHorizontal="36dp"
@@ -102,6 +118,7 @@
         app:layout_constraintBottom_toTopOf="@id/playerView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        tools:listitem="@layout/item_music"
         app:layout_constraintTop_toBottomOf="@+id/titleTextView" />
 
     <com.google.android.exoplayer2.ui.PlayerView
