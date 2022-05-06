@@ -26,7 +26,9 @@
         android:id="@+id/playListViewGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:constraint_referenced_ids="titleTextView, playListRecyclerView, playListSeekBar" />
+        app:constraint_referenced_ids="titleTextView, playListRecyclerView, playListSeekBar"
+        tools:visibility="gone"
+        />
 
     <View
         android:id="@+id/topBackgroundView"

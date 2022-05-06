@@ -189,7 +189,6 @@ class PlayerFragment : Fragment(R.layout.fragment_player) {
         }
     }
 
-
     private fun getVideoListFromServer() {
         val retrofit = Retrofit.Builder()
             .baseUrl("https://run.mocky.io")
